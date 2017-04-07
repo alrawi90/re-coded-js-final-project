@@ -7,32 +7,34 @@
 ## Function
 ### AJAX Requests
 - [ ] All AJAX requests work properly.
-- [ ] Large images, videos, and other media — anything that would significantly slow down the user's browsing experience — are loaded via AJAX requests.
+- [x] Large images, videos, and other media — anything that would significantly slow down the user's browsing experience — are loaded via AJAX requests.
 
 ### JavaScript Style
-- [ ] Each page has its own JavaScript file that contains JavaScript written specifically for that page.
+- [x] Each page has its own JavaScript file that contains JavaScript written specifically for that page.
 - [ ] All functions have exactly **ONE** responsibility. No functions do more than one thing, like make an AJAX request *and* add the returned data to the DOM.
-  + **List any functions that have more than a single responsibility**: 
+  + **List any functions that have more than a single responsibility**: projects / loadGit & youtube / callVideies
 
 ## Form
 ### Pages
 #### Homepage
-- [ ] Project has a homepage.
-- [ ] Homepage loads well-styled content even when JavaScript is disabled.
-- [ ] Homepage contains links to all other pages.
+- [x] Project has a homepage.
+- [x] Homepage loads well-styled content even when JavaScript is disabled.
+- [x] Homepage contains links to all other pages.
 - [ ] Homepage makes the website's purpose clear (who owns the site / what we can expect to find within).
 
 #### About
-- [ ] Project has an About page.
+- [x] Project has an About page.
 - [ ] Contains one paragraph about the student's life before Re:Coded.
 - [ ] Contains one paragraph about why the student joined Re:Coded.
 - [ ] Contains one paragraph about what the student wants to do after Re:Coded, both short- and long-term.
++ **Notice**  all in one paragraph .
 
 #### Projects
-- [ ] Project has a Projects page.
-- [ ] Projects page contains two navigational buttons or tabs, `Current` and `Favorite`.
-- [ ] Clicking the `Current` button makes an AJAX request to the GitHub API and displays information about the student's 5 most recent GitHub repositories.
+- [x] Project has a Projects page.
+- [x] Projects page contains two navigational buttons or tabs, `Current` and `Favorite`.
+- [x] Clicking the `Current` button makes an AJAX request to the GitHub API and displays information about the student's 5 most recent GitHub repositories.
 - [ ] Clicking the `Favorite` button makes an AJAX request and displays a list of GitHub repositories (that the student created or contributed to) that the student is especially proud of.
++ **Notice**  clicking `Favorite` shows fixed links (no AJAX).
 
 #### Skills
 - [ ] Project has a Skills page.
@@ -50,16 +52,18 @@
 ### Overall
 - [ ] Website looks professional.
   + **Why? Describe it**: 
-- [ ] Website does not feel cluttered.
-- [ ] Spacing between similar elements is consistent across all pages. (For example, the amount of space between the navbar and the page's content is identical on every page.)
-- [ ] Sizing of similar elements is consistent across all pages. (For example, the navbar links on each page are identical.)
-- [ ] All text is readable. For example, there isn't black text on top of a dark image or green text on a red background.
-- [ ] Website has a uniform color scheme. Aside from images, the same base colors are used on every page of the site.
-- [ ] Website has a uniform style / layout. It should feel like one cohesive site and not just a random collection of pages thrown together.
+  1- A personal website should focus on the person meant by it(home page contains general info about programming languages).
+  2- project.html is not very well designed.
+- [x] Website does not feel cluttered.
+- [x] Spacing between similar elements is consistent across all pages. (For example, the amount of space between the navbar and the page's content is identical on every page.)
+- [x] Sizing of similar elements is consistent across all pages. (For example, the navbar links on each page are identical.)
+- [x] All text is readable. For example, there isn't black text on top of a dark image or green text on a red background.
+- [x] Website has a uniform color scheme. Aside from images, the same base colors are used on every page of the site.
+- [x] Website has a uniform style / layout. It should feel like one cohesive site and not just a random collection of pages thrown together.
 
 ### Code
-- [ ] JavaScript functions and variables have descriptive names.
-  + Good: `var favoriteProjects = ...`
+- [x] JavaScript functions and variables have descriptive names.
+  + Good: `var favoriteProjects = ...` 
   + Bad: `function a (b, c, d) { ... }`
 - [ ] JavaScript functions and variables that are composed of English words are spelled correctly.
   + Good: `function sendRequestToGitHub (address, data, token) { ... }`
@@ -82,8 +86,8 @@
   + **List idea**: 
   
 ## Linters
-- [ ] I ran the student's JavaScript code through [JSLint](http://jslint.com/) and told them about any JavaScript issues.
+- [x] I ran the student's JavaScript code through [JSLint](http://jslint.com/) and told them about any JavaScript issues.
 - [ ] I ran the student's HTML code through [the W3C's HTML validator](https://validator.w3.org/nu/) and told them about any HTML issues.
-- [ ] I ran the student's CSS code through [CSS Lint](http://csslint.net/) and told them about any CSS issues.
+- [x] I ran the student's CSS code through [CSS Lint](http://csslint.net/) and told them about any CSS issues.
 
-**Name of reviewer**: 
+**Name of reviewer**:  Ali Alrawi
