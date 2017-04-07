@@ -87,7 +87,7 @@
   
 ## Linters
 - [x] I ran the student's JavaScript code through [JSLint](http://jslint.com/) and told them about any JavaScript issues.
-- [ ] I ran the student's HTML code through [the W3C's HTML validator](https://validator.w3.org/nu/) and told them about any HTML issues.
+- [x] I ran the student's HTML code through [the W3C's HTML validator](https://validator.w3.org/nu/) and told them about any HTML issues.
 - [x] I ran the student's CSS code through [CSS Lint](http://csslint.net/) and told them about any CSS issues.
 
 **Name of reviewer**:  Ali Alrawi
