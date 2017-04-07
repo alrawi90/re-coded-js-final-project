@@ -6,7 +6,7 @@
 
 ## Function
 ### AJAX Requests
-- [ ] All AJAX requests work properly.
+- [x] All AJAX requests work properly.
 - [x] Large images, videos, and other media — anything that would significantly slow down the user's browsing experience — are loaded via AJAX requests.
 
 ### JavaScript Style
